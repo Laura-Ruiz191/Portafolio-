@@ -23,13 +23,13 @@ body {
   top: 0;
   left: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   padding-right: 0 20px;
 }
 
 .welcome {
-  margin: 0;
+  margin: 10px;
 }
 
 .social-icons {
@@ -40,6 +40,7 @@ body {
   width: 34px;
   height: 34px;
   transition: transform 0.3s;
+  margin-right: 10px;
 }
 
 .social-icons:hover {
@@ -87,7 +88,7 @@ header {
 }
 
 .imgp {
-  width: 20%;
+  width: 230px;
   height: auto;
   object-fit: cover;
   border-radius: 8px;
@@ -153,7 +154,7 @@ h2 {
 }
 
 .whatsapp-icon {
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   right: 10px;
 }
@@ -166,4 +167,8 @@ h2 {
 
 .whatsapp-icon:hover {
   transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
 }
